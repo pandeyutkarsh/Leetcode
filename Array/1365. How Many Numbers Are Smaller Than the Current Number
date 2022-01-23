@@ -8,7 +8,6 @@ public:
                 if(nums[i] > nums[j] && i != j){
                     count++;
                 }
-                
             }
              ans.push_back(count);
                 count = 0;
